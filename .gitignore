@@ -1,0 +1,44 @@
+# ── Base de datos y datos del usuario ────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+datos/
+archivos/
+
+# ── PyInstaller — build y distribución ───────────────────────────────────────
+dist/
+build/
+build_tmp/
+GestionObras.exe
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Variables de entorno ──────────────────────────────────────────────────────
+.env
+.env.local
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Sistema operativo ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
