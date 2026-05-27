@@ -38,6 +38,10 @@ ENV/
 *.swo
 *~
 
+# ── Archivos comprimidos de distribución ─────────────────────────────────────
+*.rar
+*.zip
+
 # ── Sistema operativo ─────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
